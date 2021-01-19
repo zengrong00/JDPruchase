@@ -3,6 +3,7 @@ package com.xxx.jdkill;
 import com.alibaba.fastjson.JSONObject;
 import com.sun.webkit.network.CookieManager;
 
+import javax.sound.midi.Soundbank;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -55,9 +56,12 @@ public class Start {
                 new ThreadPoolExecutor.AbortPolicy()
         );
         for (int i = 0; i < 5; i++) {
-            threadPoolExecutor.execute(new RushToPurchase());
+            threadPoolExecutor.execute(
+                    new RushToPurchase()
+            );
         }
         new RushToPurchase().run();
+//        threadPoolExecutor.shutdown();
     }
 
     public static void initData() throws IOException {
@@ -66,7 +70,7 @@ public class Start {
             pid = fileData.split("pid=")[1].split(";")[0];
             eid = fileData.split("eid=")[1].split(";")[0];
             fp = fileData.split("fp=")[1].split(";")[0];
-            qty = Integer.valueOf(fileData.split("ok=")[1].split(";")[0]);
+            qty = Integer.valueOf(fileData.split("killQty=")[1].split(";")[0]);
             getIpUrl = fileData.split("getIpUrl=")[1].split(";")[0];
             HttpUrlConnectionUtil.ips(getIpUrl);
         } catch (Exception e) {
@@ -93,9 +97,15 @@ public class Start {
                 if (System.currentTimeMillis() + cha < startTime) {
                     System.out.println(ContactUtil.getNow()+": 正在等待抢购时间");
                 } else {
+                    System.out.println(ContactUtil.getNow()+": 开始抢购");
                     break;
                 }
             }
+        }else if (shopDetail.get("miaoshaInfo") != null) {
+            JSONObject miaoshaInfo = JSONObject.parseObject(shopDetail.get("miaoshaInfo").toString());
+            System.out.println(ContactUtil.getNow()+" 秒杀时间："+miaoshaInfo.get("benifitText"));
+            System.out.println("                    ******* 原 价："+miaoshaInfo.get("originPrice"));
+            System.out.println("                    ******* 促销价："+miaoshaInfo.get("promoPrice"));
         }
     }
 
