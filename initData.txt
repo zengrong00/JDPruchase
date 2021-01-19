@@ -1,0 +1,12 @@
+//每个参数后面需要加分号
+//商品id
+pid=10020726653909;
+//自己的eid
+eid=W2HEXZSRULGOBXAMFF6J44UTIGCP5QGKRQO5M7KZHYUAU7RT2JBTXRG2ZNRUWHKYX2PHNKRJI2KOM7BZIZ2V3F3C64;
+//自己的fp
+fp=4ce08fcab2f99f47724c9c7cdf771d9f;
+//抢购数量
+ok=2;
+//获取ip代理,不会用不要填，但是必须保留分号
+getIpUrl=http://api.xiequ.cn/VAD/GetIp.aspx?act=get&num=200&time=30&plat=1&re=0&type=0&so=1&ow=1&spl=1&addr=&db=1
+
