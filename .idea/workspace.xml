@@ -11,7 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b179469-3194-488e-8566-e3d65afd682d" name="Default Changelist" comment="add.">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Jd-Pruchase-Kill.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JDPurchase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zx/jdkill/test/ContactUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxx/jdkill/ContactUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zx/jdkill/test/HttpUrlConnectionUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxx/jdkill/HttpUrlConnectionUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zx/jdkill/test/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxx/jdkill/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zx/jdkill/test/RushToPurchase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxx/jdkill/RushToPurchase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zx/jdkill/test/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xxx/jdkill/Start.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +32,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1nDqv5XB3tjScCZGe6VkCl8S0GB" />
@@ -48,7 +59,7 @@
   <component name="RunManager" selected="Application.test">
     <configuration name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.jdkill.test.Start" />
-      <module name="Jd-Pruchase-Kill" />
+      <module name="JDPurchase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zx.jdkill.test.*" />
@@ -61,7 +72,7 @@
     </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zx.jdkill.test.test" />
-      <module name="Jd-Pruchase-Kill" />
+      <module name="JDPurchase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.zx.jdkill.test.*" />
@@ -72,8 +83,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="JDPurchase" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="JDPurchase" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.test" />
+        <item itemvalue="Application.Start" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.Start" />
       </list>
@@ -89,7 +149,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1610935236074</updated>
-      <workItem from="1610935237251" duration="12619000" />
+      <workItem from="1610935237251" duration="16019000" />
     </task>
     <task id="LOCAL-00001" summary="add.">
       <created>1611020776326</created>
@@ -119,7 +179,35 @@
       <option name="project" value="LOCAL" />
       <updated>1611021862102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add.">
+      <created>1611023142571</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611023142571</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add.">
+      <created>1611023161192</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611023161192</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add.">
+      <created>1611026871411</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611026871411</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add.">
+      <created>1611034980298</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611034980298</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,10 +241,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="457" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1610939095816" />
-    <state x="401" y="293" width="467" height="253" key="Github.ShareDialog" timestamp="1611022964057">
+    <state x="401" y="293" width="467" height="253" key="Github.ShareDialog" timestamp="1611024756344">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="401" y="293" width="467" height="253" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1611022964057" />
+    <state x="401" y="293" width="467" height="253" key="Github.ShareDialog/0.0.1440.900@0.0.1440.900" timestamp="1611024756344" />
     <state width="1398" height="320" key="GridCell.Tab.0.bottom" timestamp="1611020123450">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -217,21 +305,25 @@
     </state>
     <state width="1398" height="320" key="GridCell.Tab.2.right/0.0.1440.900@0.0.1440.900" timestamp="1611020123454" />
     <state width="1398" height="267" key="GridCell.Tab.2.right/0.23.1440.824@0.23.1440.824" timestamp="1610950961171" />
-    <state x="229" y="23" width="1024" height="824" key="SettingsEditor" timestamp="1611023003160">
+    <state x="229" y="23" width="1024" height="824" key="SettingsEditor" timestamp="1611024579719">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="23" width="1024" height="824" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1611023003160" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1611022979190">
+    <state x="229" y="23" width="1024" height="824" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1611024579719" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1611034982612">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611022979190" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611034982612" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1610936635381">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1610936635381" />
-    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1611021813922">
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1611026476090">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1611021813922" />
+    <state x="511" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1611026476090" />
+    <state x="421" y="205" width="721" height="490" key="find.popup" timestamp="1611023292498">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="721" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1611023292498" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-package com.zx.jdkill.test;
+package com.xxx.jdkill;
 
 import com.alibaba.fastjson.JSONObject;
 import com.sun.jna.Native;
@@ -7,9 +7,6 @@ import com.sun.jna.platform.win32.User32;
 import com.sun.jna.platform.win32.WinDef;
 import com.sun.jna.platform.win32.WinUser;
 
-import java.awt.*;
-import java.awt.event.WindowAdapter;
-import java.awt.event.WindowEvent;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;

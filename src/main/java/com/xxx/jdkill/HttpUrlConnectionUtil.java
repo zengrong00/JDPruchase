@@ -1,4 +1,4 @@
-package com.zx.jdkill.test;
+package com.xxx.jdkill;
 
 import com.alibaba.fastjson.JSONObject;
 
